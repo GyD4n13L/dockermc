@@ -1,0 +1,10 @@
+FROM ubuntu:16.04
+MAINTAINER gyrodi
+
+RUN apt-get -y update \
+ && apt-get -y upgrande \
+ && apt-get -y install mc \
+ && apt-get -y install firefox \
+ && apt-get clean
+ 
+WORKDIR /root
