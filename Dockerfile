@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Gyorodi Daniel G.
+MAINTAINER gyorodidanielg
 
 RUN apt-get -y update \
  && apt-get -y upgrade \
